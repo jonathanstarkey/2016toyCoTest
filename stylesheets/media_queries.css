@@ -1,0 +1,45 @@
+/*----- MOBILE STYLES -----*/
+
+@media only screen and (max-width: 479px) {
+    div[class="btn"] {
+        display: block!important;
+        margin-bottom: 10px!important;
+        background-image: none!important;
+        margin-right: 0!important;
+    }
+    .productRightColumn {
+        border: none!important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .nav li {
+        display: inline-block!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /*////// CLIENT-SPECIFIC STYLES //////*/
+    body {
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+    /* Force iOS Mail to render the email at full width. */
+}
+
+
+/*////// GENERAL STYLES //////*/
+
+@media only screen and (max-width: 479px) {
+    td[class="productLeftColumn"],
+    td[class="productRightColumn"] {
+        display: block!important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+    img[id="productImage"] {
+        height: auto !important;
+        max-width: 600px !important;
+        width: 100% !important;
+    }
+}
